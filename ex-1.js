@@ -14,3 +14,7 @@ let getJohnProfile = () => {
   });
 };
 // Start coding here
+function showResolve(resolveData) {
+  return console.log(resolveData);
+}
+getJohnProfile().then(showResolve);
